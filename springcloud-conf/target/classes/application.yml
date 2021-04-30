@@ -1,0 +1,30 @@
+server:
+  port: 4000
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/,http://localhost:8889/eureka/
+
+spring:
+  application:
+    name: springcloud-conf
+  cloud:
+    config:
+      server:
+        git:
+#          uri: https://github.com/spring-cloud-samples/config-repo
+          uri: https://gitee.com/levis9527/cloud_test_conf.git
+#          default-label: master
+          search-paths: conf
+#          username: levis9527
+#          password: gitee9527
+#          force-pull: true
+#          basedir: ./testsss
+#          skipSslValidation: true
+#logging:
+#  level:
+logging:
+  level:
+    org.*.**: debug
+#    org.springframework.cloud: debug

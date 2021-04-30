@@ -1,0 +1,24 @@
+server:
+  port: 3001
+spring:
+  application:
+    name: springcloud-zuul
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: after_route
+          uri: https://www.baidu.com
+          predicates:
+            - Cookie=mycookie,mycookievalue
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/,http://localhost:8889/eureka/
+logging:
+  level:
+    org.springframework.cloud.gateway: debug

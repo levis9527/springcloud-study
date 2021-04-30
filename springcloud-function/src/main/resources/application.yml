@@ -1,0 +1,10 @@
+server:
+  port: 5001
+
+spring:
+  application:
+    name: springcloud-function
+
+  cloud:
+    function:
+      definition: uppercase|reverse

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-eureka1" />
+        <module name="springcloud-zipkin" />
+        <module name="user-service1" />
+        <module name="springcloud-stream" />
+        <module name="user-service2" />
+        <module name="springcloud-eureka2" />
+        <module name="springcloud-conf" />
+        <module name="springcloud-function" />
+        <module name="demo" />
+        <module name="user-web" />
+        <module name="springcloud-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zipkin-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="springcloud" options="-parameters" />
+      <module name="springcloud-conf" options="-parameters" />
+      <module name="springcloud-eureka1" options="-parameters" />
+      <module name="springcloud-eureka2" options="-parameters" />
+      <module name="springcloud-function" options="-parameters" />
+      <module name="springcloud-stream" options="-parameters" />
+      <module name="springcloud-zipkin" options="-parameters" />
+      <module name="springcloud-zuul" options="-parameters" />
+      <module name="user-service1" options="-parameters" />
+      <module name="user-service2" options="-parameters" />
+      <module name="user-web" options="-parameters" />
+      <module name="zipkin-server" options="-parameters" />
+    </option>
+  </component>
+</project>
