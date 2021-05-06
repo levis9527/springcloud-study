@@ -19,10 +19,10 @@ public class RabbitmqConsumer {
         };
     }
 
-//    @Bean
-//    public Function<String, String> uppercase() {
-//        return value -> value.toUpperCase();
-//    }
+    @Bean
+    public Function<String, String> uppercase() {
+        return value -> value.toUpperCase();
+    }
 
 //    @Bean
 //    public Supplier<String> stringSupplier() {

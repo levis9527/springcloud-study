@@ -10,6 +10,7 @@
         <module name="springcloud-zipkin" />
         <module name="user-service1" />
         <module name="springcloud-stream" />
+        <module name="spring-swagger" />
         <module name="user-service2" />
         <module name="springcloud-eureka2" />
         <module name="springcloud-conf" />
@@ -26,6 +27,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
+      <module name="spring-swagger" options="-parameters" />
       <module name="springcloud" options="-parameters" />
       <module name="springcloud-conf" options="-parameters" />
       <module name="springcloud-eureka1" options="-parameters" />

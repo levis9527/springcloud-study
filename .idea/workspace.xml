@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9469fd6-4ab1-4651-baff-cffdad66c9ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka2/src/main/java/com/github/levis9527/springcloudeureka2/SpringcloudEureka2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-function/src/main/java/com/github/levis9527/springcloudfunction/function/Greeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-stream/src/main/java/com/github/levis9527/springcloudstream/bean/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-stream/src/main/java/com/github/levis9527/springcloudstream/consumer/RabbitmqConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-stream/src/main/java/com/github/levis9527/springcloudstream/function/RabbitmqFuction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zipkin/src/main/java/com/github/levis9527/springcloudzipkin/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zipkin/src/main/java/com/github/levis9527/springcloudzipkin/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-swagger/src/main/java/com/github/levis9527/springswagger/conf/Swagger2Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-swagger/src/main/java/com/github/levis9527/springswagger/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-swagger/src/main/java/com/github/levis9527/springswagger/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-stream/src/main/java/com/github/levis9527/springcloudstream/consumer/RabbitmqConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-stream/src/main/java/com/github/levis9527/springcloudstream/consumer/RabbitmqConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-stream/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-stream/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -123,7 +125,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringcloudStreamApplication">
+  <component name="RunManager" selected="Spring Boot.SpringSwaggerApplication">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -159,6 +161,13 @@
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.levis9527.springswagger.SpringSwaggerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -266,7 +275,7 @@
       <workItem from="1619144670373" duration="14975000" />
       <workItem from="1619167284521" duration="33472000" />
       <workItem from="1619402743632" duration="22597000" />
-      <workItem from="1619488003482" duration="39427000" />
+      <workItem from="1619488003482" duration="57681000" />
     </task>
     <servers />
   </component>
